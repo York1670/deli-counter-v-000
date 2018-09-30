@@ -24,4 +24,5 @@ def now_serving(deli)
     puts "Currently serving #{customer}."
   end
   puts "There is nobody waiting to be served!"
+  break
 end
