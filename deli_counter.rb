@@ -19,6 +19,7 @@ def take_a_number (deli, customer)
 end
 
 def now_serving(deli)
-  customer = take_a_number(deli,customer).pop
+  deli = take_a_number
+  customer = deli.pop
   puts "Currently serving #{customer}."
 end
