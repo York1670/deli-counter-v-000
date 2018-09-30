@@ -19,8 +19,8 @@ def take_a_number (deli, customer)
 end
 
 def now_serving(deli)
-  until customer == nil
     customer = deli.shift
+  until customer == nil
     puts "Currently serving #{customer}."
   end
   puts "There is nobody waiting to be served!"
