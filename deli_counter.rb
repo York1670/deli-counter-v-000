@@ -17,3 +17,6 @@ def take_a_number (deli, customer)
   position_in_line = deli.length
   puts "Welcome, #{customer}. You are number #{position_in_line} in line."
 end
+
+def now_serving
+end
