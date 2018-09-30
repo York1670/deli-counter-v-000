@@ -19,7 +19,7 @@ def take_a_number (deli, customer)
 end
 
 def now_serving(deli)
-  
+
   customer = deli.shift
   if customer < deli
       puts "Currently serving #{customer}."
