@@ -18,5 +18,7 @@ def take_a_number (deli, customer)
   puts "Welcome, #{customer}. You are number #{position_in_line} in line."
 end
 
-def now_serving
+def now_serving(deli)
+  customer = take_a_number(deli,customer).pop
+  puts "Currently serving #{customer}."
 end
