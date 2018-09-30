@@ -21,7 +21,7 @@ end
 def now_serving(deli)
   customer = deli.shift
     puts "Currently serving #{customer}."
-  if customer = 0
+  if customer < 0
       puts "There is nobody waiting to be served!"
   end
 end
