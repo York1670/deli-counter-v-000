@@ -19,7 +19,7 @@ def take_a_number (deli, customer)
 end
 
 def now_serving(deli)
-  if deli.length = 0
+  if deli.length == 0
     puts "There is nobody waiting to be served!"
     else
       customer = deli.shift
