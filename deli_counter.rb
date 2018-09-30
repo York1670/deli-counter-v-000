@@ -20,8 +20,8 @@ end
 
 def now_serving(deli)
   until customer == nil
-  customer = deli.shift
-  puts "Currently serving #{customer}."
-end
-
+    customer = deli.shift
+    puts "Currently serving #{customer}."
+  end
+  puts "There is nobody waiting to be served!"
 end
