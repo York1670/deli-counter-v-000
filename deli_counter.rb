@@ -19,9 +19,10 @@ def take_a_number (deli, customer)
 end
 
 def now_serving(deli)
-  customer = deli.shift
-  while customer != deli.shift
+  customer = deli
+  while 
     puts "Currently serving #{customer}."
+    customer.shift
   end
   puts "There is nobody waiting to be served!"
 end
