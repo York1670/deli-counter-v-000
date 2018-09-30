@@ -21,5 +21,5 @@ end
 def now_serving(deli)
   customer = deli.shift
     puts "Currently serving #{customer}."
-    
+
 end
